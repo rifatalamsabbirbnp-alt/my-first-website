@@ -1,10 +1,17 @@
-
 const form = document.getElementById("contactForm");
+const formMessage = document.getElementById("formMessage");
 
-form.addEventListener("submit", function(event) {
-	event.preventDefault();
+if (form && formMessage) {
+    form.addEventListener("submit", function(event) {
+        event.preventDefault();
 
-	alert("ধন্যবাদ! তোমার ফর্মটি সফলভাবে পরীক্ষা করা হয়েছে।");
+        formMessage.textContent =
+            "Thank you! Your message has been submitted successfully.";
 
-	form.reset();
-});
+        formMessage.style.display = "block";
+
+        form.reset();
+    });
+}
+
+console.log("JavaScript is working!");
