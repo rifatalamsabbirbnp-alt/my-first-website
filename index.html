@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h1>Welcome to My Website!</h1>
+        <p>আমি ওয়েব ডেভেলপমেন্ট শিখছি।</p>
+        <a href="https://www.google.com" target="_blank">Visit Google</a>
+    </section>
+
+    <section id="about"> <div class="profile-card">
+        <img src="my-photo.jpg (1).jpg" alt="My profile photo" class="profile-photo">
+
+        <h2>im Rifat Alom </h2>
+        <p>Beginner Web Developer</p>
+        <p>আমি ওয়েব ডেভেলপমেন্ট শিখছি এবং সুন্দর ওয়েবসাইট তৈরি করছি।</p>
+
+        <a href="#contact">Contact Me <div class="social-links">
+    <a href="https://www.facebook.com/rifatalom.sabbir.3/" target="_blank" rel="noopener noreferrer">Facebook</a>
+    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
+</div></a>
+    </div>
+        <h2>About Me</h2>
+        <p>আমি একজন নতুন Web Developer। আমি সুন্দর ওয়েবসাইট তৈরি করতে শিখছি।</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2><img src="my-photo.jpg (1).jpg" alt="My profile photo" class="profile-photo">
+        <p>যদি আপনি আমার সাথে যোগাযোগ করতে চান, তবে নিচের ফর্মটি পূরণ করুন:</p>
+        <form>
+            <label for="name">নাম:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">ইমেইল:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">বার্তা:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">পাঠিয়েছেন</button>
+        </form>
+    </section>
+
+</body>
+</html>
