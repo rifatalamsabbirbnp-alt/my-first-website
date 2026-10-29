@@ -920,7 +920,9 @@ footer a:hover {
 .project-links a:hover {
     background: #1d4ed8;
     transform: translateY(-3px);
-}#backToTop {
+}
+
+#backToTop {
     position: fixed;
     bottom: 25px;
     right: 25px;
