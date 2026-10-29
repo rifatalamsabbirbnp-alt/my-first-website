@@ -898,4 +898,26 @@ footer a:hover {
     .hero-description {
         font-size: 15px;
     }
+}.project-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.project-links a {
+    display: inline-block;
+    background: #2563eb;
+    color: #ffffff;
+    padding: 11px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.project-links a:hover {
+    background: #1d4ed8;
+    transform: translateY(-3px);
 }
