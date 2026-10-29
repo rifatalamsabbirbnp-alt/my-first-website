@@ -1,286 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Rifat Alom's portfolio, featuring responsive web development projects built with HTML, CSS, and JavaScript.">
 
-	<meta name="description" content="Explore Rifat Alom's portfolio, featuring responsive web development projects built with HTML, CSS, and JavaScript.">
+    <title>Rifat Alom | Web Developer Portfolio</title>
 
-	<title>Rifat Alom | Web Developer Portfolio</title>
-<link rel="icon" type="image/svg+xml" href="favicon.svg">
-	<link rel="icon" type="image/png" href="favicon.png.png">
-	<link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-	<!-- Navigation -->
-	<nav>
-		<a href="#home">Home</a>
-		<a href="#about">About</a>
-		<a href="#skills">Skills</a>
-		<a href="#projects">Projects</a>
-		<a href="#contact">Contact</a>
-	</nav>
+    <nav aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
-	<!-- Home Section -->
-	<section id="home" class="hero">
-		<div class="hero-content">
-			<p class="hero-tag">WELCOME TO MY PORTFOLIO</p>
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="hero-tag">WELCOME TO MY PORTFOLIO</p>
+                <h1>Hi, I'm <span>Rifat Alom</span></h1>
+                <h2>Aspiring Web Developer</h2>
 
-			<h1>Hi, I'm <span>Rifat Alom</span></h1>
+                <p class="hero-description">
+                    I create clean, responsive, and user-friendly websites.
+                    I am continuously learning and improving my web development skills.
+                </p>
 
-			<h2>Aspiring Web Developer</h2>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Projects</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+        </section>
 
-			<p class="hero-description">
-				I create clean, responsive, and user-friendly websites.
-				I am continuously learning and improving my web development skills.
-			</p>
+        <section id="about">
+            <h2>About Me</h2>
 
-			<div class="hero-buttons">
-				<a href="#projects" class="btn btn-primary">
-					View My Projects
-				</a>
+            <div class="profile-card">
+                <img src="my-photo.jpg (1).jpg"
+                     alt="Rifat Alom profile photo"
+                     class="profile-photo">
 
-				<a href="#contact" class="btn btn-outline">
-					Contact Me
-				</a>
-			</div>
-		</div>
-	</section>
+                <h3>I'm Rifat Alom</h3>
+                <p>Aspiring Web Developer | HTML, CSS &amp; JavaScript</p>
+                <p>
+                    I am learning web development and creating beautiful,
+                    responsive websites while continuously improving my skills.
+                </p>
 
-	<!-- About Section -->
-	<section id="about">
-		<h2>About Me</h2>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/rifatalom.sabbir.3/"
+                       target="_blank" rel="noopener noreferrer">Facebook</a>
 
-		<div class="profile-card">
-			<img
-				src="my-photo.jpg (1).jpg"
-				alt="Rifat Alom profile photo"
-				class="profile-photo"
-			>
+                    <a href="https://github.com/rifatalamsabbirbnp-alt"
+                       target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
 
-			<h3>I'm Rifat Alom</h3>
+                <a href="#contact" class="btn btn-primary">Contact Me</a>
+            </div>
+        </section>
 
-			<p>Aspiring Web Developer | HTML, CSS &amp; JavaScript</p>
+        <section id="skills">
+            <h2>My Skills</h2>
 
-			<p>
-				I am learning web development and creating beautiful,
-				responsive websites while continuously improving my skills.
-			</p>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <h3>HTML</h3>
+                    <p>Website Structure</p>
+                    <p class="skill-level">Learning</p>
+                    <div class="progress-bar"><div class="progress html-progress"></div></div>
+                </div>
 
-			<div class="social-links">
-				<a
-					href="https://www.facebook.com/rifatalom.sabbir.3/"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					Facebook
-				</a>
+                <div class="skill-card">
+                    <h3>CSS</h3>
+                    <p>Styling and Responsive Design</p>
+                    <p class="skill-level">Learning</p>
+                    <div class="progress-bar"><div class="progress css-progress"></div></div>
+                </div>
 
-				<a
-					href="https://github.com/rifatalamsabbirbnp-alt"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					GitHub
-				</a>
-			</div>
+                <div class="skill-card">
+                    <h3>JavaScript</h3>
+                    <p>Website Interactivity</p>
+                    <p class="skill-level">Learning</p>
+                    <div class="progress-bar"><div class="progress js-progress"></div></div>
+                </div>
+            </div>
+        </section>
 
-			<a href="#contact" class="btn btn-primary">
-				Contact Me
-			</a>
-		</div>
-	</section>
+        <section id="projects" class="projects-section">
+            <h2>My Projects</h2>
+            <p class="projects-intro">
+                Here are some projects I am building as I learn web development.
+            </p>
 
-	<!-- Skills Section -->
-	<section id="skills">
-		<h2>My Skills</h2>
+            <div class="projects-container">
+                <article class="project-card">
+                    <h3>Personal Portfolio</h3>
+                    <p>A responsive portfolio website built using HTML, CSS, and JavaScript.</p>
+                    <span class="project-status">Completed</span>
+                    <div class="project-links">
+                        <a href="https://rifatalamsabbirbnp-alt.github.io/my-first-website/"
+                           target="_blank" rel="noopener noreferrer">Live Demo</a>
+                        <a href="https://github.com/rifatalamsabbirbnp-alt/my-first-website"
+                           target="_blank" rel="noopener noreferrer">Source Code</a>
+                    </div>
+                </article>
 
-		<div class="skills-container">
+                <article class="project-card">
+                    <h3>Contact Form</h3>
+                    <p>A contact form integrated with EmailJS to send messages.</p>
+                    <span class="project-status">Completed</span>
+                </article>
 
-			<div class="skill-card">
-				<h3>HTML</h3>
-				<p>Website Structure</p>
-				<p class="skill-level">Learning</p>
+                <article class="project-card">
+                    <h3>Bright Business Landing Page</h3>
+                    <p>A modern, responsive business website built using HTML and CSS.</p>
+                    <span class="project-status">Completed</span>
+                    <div class="project-links">
+                        <a href="https://rifatalamsabbirbnp-alt.github.io/business-landing-page/"
+                           target="_blank" rel="noopener noreferrer">Live Demo</a>
+                        <a href="https://github.com/rifatalamsabbirbnp-alt/business-landing-page"
+                           target="_blank" rel="noopener noreferrer">Source Code</a>
+                    </div>
+                </article>
 
-				<div class="progress-bar">
-					<div class="progress html-progress"></div>
-				</div>
-			</div>
+                <article class="project-card">
+                    <h3>Coming Soon</h3>
+                    <p>I am learning new skills to build more exciting projects.</p>
+                    <span class="project-status">In Progress</span>
+                </article>
+            </div>
+        </section>
 
-			<div class="skill-card">
-				<h3>CSS</h3>
-				<p>Styling and Responsive Design</p>
-				<p class="skill-level">Learning</p>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>If you want to get in touch with me, please fill out the form below.</p>
 
-				<div class="progress-bar">
-					<div class="progress css-progress"></div>
-				</div>
-			</div>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"
+                       placeholder="Enter your full name" required>
 
-			<div class="skill-card">
-				<h3>JavaScript</h3>
-				<p>Website Interactivity</p>
-				<p class="skill-level">Learning</p>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"
+                       placeholder="Enter your email address" required>
 
-				<div class="progress-bar">
-					<div class="progress js-progress"></div>
-				</div>
-			</div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"
+                          placeholder="Write your message here..." required></textarea>
 
-		</div>
-	</section>
+                <button type="submit">Send Message</button>
 
-	<!-- Projects Section -->
-	<section id="projects" class="projects-section">
-		<h2>My Projects</h2>
+                <p id="formMessage" class="form-message"
+                   role="status" aria-live="polite"></p>
+            </form>
+        </section>
+    </main>
 
-		<p class="projects-intro">
-			Here are some projects I am building as I learn web development.
-		</p>
+    <footer>
+        <p>&copy; 2026 Rifat Alom. All rights reserved.</p>
+        <p>Aspiring Web Developer</p>
+    </footer>
 
-		<div class="projects-container">
+    <button id="backToTop" type="button"
+            aria-label="Back to top"
+            onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+        ↑
+    </button>
 
-			<div class="project-card">
-				<h3>Personal Portfolio</h3>
-
-				<p>
-					A responsive portfolio website built using HTML,
-					CSS, and JavaScript.
-				</p>
-
-				<span class="project-status">Completed</span>
-
-				<div class="project-links">
-					<a
-						href="https://rifatalamsabbirbnp-alt.github.io/my-first-website/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Live Demo
-					</a>
-
-					<a
-						href="https://github.com/rifatalamsabbirbnp-alt/my-first-website"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Source Code
-					</a>
-				</div>
-			</div>
-
-			<div class="project-card">
-				<h3>Contact Form</h3>
-
-				<p>
-					A contact form integrated with EmailJS to send messages.
-				</p>
-
-				<span class="project-status">Completed</span>
-			</div>
-<div class="project-card">
-    <h3>Bright Business Landing Page</h3>
-
-    <p>
-        A modern, responsive business website built using
-        HTML and CSS, featuring service cards, smooth scrolling,
-        and an interactive Back to Top button.
-    </p>
-
-    <span class="project-status">Completed</span>
-
-    <div class="project-links">
-        <a
-            href="https://rifatalamsabbirbnp-alt.github.io/business-landing-page/"
-            target="_blank"
-            rel="noopener noreferrer"
-        >
-            Live Demo
-        </a>
-
-        <a
-            href="https://github.com/rifatalamsabbirbnp-alt/business-landing-page"
-            target="_blank"
-            rel="noopener noreferrer"
-        >
-            Source Code
-        </a>
-    </div>
-</div>
-			<div class="project-card">
-				<h3>Coming Soon</h3>
-
-				<p>
-					I am learning new skills to build more exciting projects.
-				</p>
-
-				<span class="project-status">In Progress</span>
-			</div>
-
-		</div>
-	</section>
-
-	<!-- Contact Section -->
-	<section id="contact">
-		<h2>Contact Me</h2>
-
-		<p>
-			If you want to get in touch with me, please fill out the form below.
-		</p>
-
-		<form id="contactForm">
-
-			<label for="name">Name:</label>
-			<input
-				type="text"
-				id="name"
-				name="name"
-				placeholder="Enter your full name"
-				required
-			>
-
-			<label for="email">Email:</label>
-			<input
-				type="email"
-				id="email"
-				name="email"
-				placeholder="Enter your email address"
-				required
-			>
-
-			<label for="message">Message:</label>
-			<textarea
-				id="message"
-				name="message"
-				placeholder="Write your message here..."
-				required
-			></textarea>
-
-			<button type="submit">Send Message</button>
-
-			<p
-				id="formMessage"
-				class="form-message"
-				role="status"
-				aria-live="polite"
-			></p>
-
-		</form>
-	</section>
-
-	<!-- Footer -->
-	<footer>
-		<p>&copy; 2026 Rifat Alom. All rights reserved.</p>
-		<p>Aspiring Web Developer</p>
-	</footer>
-
-	<!-- EmailJS and JavaScript -->
-	<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-	<script src="jabascript.js"></script>
-<button id="backToTop" class="hidden" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
-    ↑
-</button>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="jabascript.js"></script>
 </body>
 </html>
