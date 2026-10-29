@@ -920,4 +920,32 @@ footer a:hover {
 .project-links a:hover {
     background: #1d4ed8;
     transform: translateY(-3px);
+}#backToTop {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 45px;
+    height: 45px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px #00000030;
+    z-index: 1000;
+}
+
+#backToTop:hover {
+    background: #1d4ed8;
+    transform: translateY(-4px);
+    transition: 0.3s ease;
+}
+
+.hidden {
+    display: none;
+}
+
+#backToTop.hidden {
+    display: none;
 }
