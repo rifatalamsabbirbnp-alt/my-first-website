@@ -654,4 +654,6 @@ footer p {
         animation-duration: 0.01ms !important;
         scroll-behavior: auto !important;
     }
+}.git-progress {
+    width: 40%;
 }
