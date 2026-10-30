@@ -656,4 +656,41 @@ footer p {
     }
 }.git-progress {
     width: 40%;
+}/* Services Section */
+.services-section {
+    padding: 60px 20px;
+    text-align: center;
+    background: #f4f8ff;
+}
+
+.services-section h2 {
+    color: #1565c0;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.service-card {
+    background: white;
+    padding: 25px;
+    width: 250px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+}
+
+.service-card h3 {
+    color: #1565c0;
+    margin-bottom: 12px;
 }
